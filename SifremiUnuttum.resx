@@ -1,0 +1,1412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        /cIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>940, 240</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 134</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 406</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>889, 16</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Şifrenizi güncellemek için aşağıdaki bilgileri doldurarak 'Gönder' butonuna basınız. Şifre güncelleme işleminden Cep numarası girilen şahıs sorumldur.</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>848, 442</value>
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 22</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>T.C. Kimlik Numarası</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>848, 487</value>
+  </data>
+  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 22</value>
+  </data>
+  <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="textBox2.Text" xml:space="preserve">
+    <value>Anne Adı</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
+    <value>textBox2</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="comboBox1.Items" xml:space="preserve">
+    <value>90</value>
+  </data>
+  <data name="comboBox1.Items1" xml:space="preserve">
+    <value>93</value>
+  </data>
+  <data name="comboBox1.Items2" xml:space="preserve">
+    <value>355</value>
+  </data>
+  <data name="comboBox1.Items3" xml:space="preserve">
+    <value>213</value>
+  </data>
+  <data name="comboBox1.Items4" xml:space="preserve">
+    <value>1-684</value>
+  </data>
+  <data name="comboBox1.Items5" xml:space="preserve">
+    <value>376</value>
+  </data>
+  <data name="comboBox1.Items6" xml:space="preserve">
+    <value>244</value>
+  </data>
+  <data name="comboBox1.Items7" xml:space="preserve">
+    <value>1-264</value>
+  </data>
+  <data name="comboBox1.Items8" xml:space="preserve">
+    <value>672</value>
+  </data>
+  <data name="comboBox1.Items9" xml:space="preserve">
+    <value>1-268</value>
+  </data>
+  <data name="comboBox1.Items10" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="comboBox1.Items11" xml:space="preserve">
+    <value>374</value>
+  </data>
+  <data name="comboBox1.Items12" xml:space="preserve">
+    <value>297</value>
+  </data>
+  <data name="comboBox1.Items13" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="comboBox1.Items14" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="comboBox1.Items15" xml:space="preserve">
+    <value>994</value>
+  </data>
+  <data name="comboBox1.Items16" xml:space="preserve">
+    <value>1-242</value>
+  </data>
+  <data name="comboBox1.Items17" xml:space="preserve">
+    <value>973</value>
+  </data>
+  <data name="comboBox1.Items18" xml:space="preserve">
+    <value>880</value>
+  </data>
+  <data name="comboBox1.Items19" xml:space="preserve">
+    <value>1-246</value>
+  </data>
+  <data name="comboBox1.Items20" xml:space="preserve">
+    <value>375</value>
+  </data>
+  <data name="comboBox1.Items21" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="comboBox1.Items22" xml:space="preserve">
+    <value>501</value>
+  </data>
+  <data name="comboBox1.Items23" xml:space="preserve">
+    <value>229</value>
+  </data>
+  <data name="comboBox1.Items24" xml:space="preserve">
+    <value>1-441</value>
+  </data>
+  <data name="comboBox1.Items25" xml:space="preserve">
+    <value>975</value>
+  </data>
+  <data name="comboBox1.Items26" xml:space="preserve">
+    <value>591</value>
+  </data>
+  <data name="comboBox1.Items27" xml:space="preserve">
+    <value>599</value>
+  </data>
+  <data name="comboBox1.Items28" xml:space="preserve">
+    <value>387</value>
+  </data>
+  <data name="comboBox1.Items29" xml:space="preserve">
+    <value>267</value>
+  </data>
+  <data name="comboBox1.Items30" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="comboBox1.Items31" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="comboBox1.Items32" xml:space="preserve">
+    <value>246</value>
+  </data>
+  <data name="comboBox1.Items33" xml:space="preserve">
+    <value>673</value>
+  </data>
+  <data name="comboBox1.Items34" xml:space="preserve">
+    <value>359</value>
+  </data>
+  <data name="comboBox1.Items35" xml:space="preserve">
+    <value>226</value>
+  </data>
+  <data name="comboBox1.Items36" xml:space="preserve">
+    <value>257</value>
+  </data>
+  <data name="comboBox1.Items37" xml:space="preserve">
+    <value>855</value>
+  </data>
+  <data name="comboBox1.Items38" xml:space="preserve">
+    <value>237</value>
+  </data>
+  <data name="comboBox1.Items39" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBox1.Items40" xml:space="preserve">
+    <value>238</value>
+  </data>
+  <data name="comboBox1.Items41" xml:space="preserve">
+    <value>1-345</value>
+  </data>
+  <data name="comboBox1.Items42" xml:space="preserve">
+    <value>236</value>
+  </data>
+  <data name="comboBox1.Items43" xml:space="preserve">
+    <value>235</value>
+  </data>
+  <data name="comboBox1.Items44" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="comboBox1.Items45" xml:space="preserve">
+    <value>86</value>
+  </data>
+  <data name="comboBox1.Items46" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="comboBox1.Items47" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="comboBox1.Items48" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="comboBox1.Items49" xml:space="preserve">
+    <value>269</value>
+  </data>
+  <data name="comboBox1.Items50" xml:space="preserve">
+    <value>242</value>
+  </data>
+  <data name="comboBox1.Items51" xml:space="preserve">
+    <value>243</value>
+  </data>
+  <data name="comboBox1.Items52" xml:space="preserve">
+    <value>682</value>
+  </data>
+  <data name="comboBox1.Items53" xml:space="preserve">
+    <value>506</value>
+  </data>
+  <data name="comboBox1.Items54" xml:space="preserve">
+    <value>385</value>
+  </data>
+  <data name="comboBox1.Items55" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="comboBox1.Items56" xml:space="preserve">
+    <value>599</value>
+  </data>
+  <data name="comboBox1.Items57" xml:space="preserve">
+    <value>357</value>
+  </data>
+  <data name="comboBox1.Items58" xml:space="preserve">
+    <value>420</value>
+  </data>
+  <data name="comboBox1.Items59" xml:space="preserve">
+    <value>225</value>
+  </data>
+  <data name="comboBox1.Items60" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="comboBox1.Items61" xml:space="preserve">
+    <value>253</value>
+  </data>
+  <data name="comboBox1.Items62" xml:space="preserve">
+    <value>1-767</value>
+  </data>
+  <data name="comboBox1.Items63" xml:space="preserve">
+    <value>1-809,1-829,1-849</value>
+  </data>
+  <data name="comboBox1.Items64" xml:space="preserve">
+    <value>593</value>
+  </data>
+  <data name="comboBox1.Items65" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="comboBox1.Items66" xml:space="preserve">
+    <value>503</value>
+  </data>
+  <data name="comboBox1.Items67" xml:space="preserve">
+    <value>240</value>
+  </data>
+  <data name="comboBox1.Items68" xml:space="preserve">
+    <value>291</value>
+  </data>
+  <data name="comboBox1.Items69" xml:space="preserve">
+    <value>372</value>
+  </data>
+  <data name="comboBox1.Items70" xml:space="preserve">
+    <value>251</value>
+  </data>
+  <data name="comboBox1.Items71" xml:space="preserve">
+    <value>500</value>
+  </data>
+  <data name="comboBox1.Items72" xml:space="preserve">
+    <value>298</value>
+  </data>
+  <data name="comboBox1.Items73" xml:space="preserve">
+    <value>679</value>
+  </data>
+  <data name="comboBox1.Items74" xml:space="preserve">
+    <value>358</value>
+  </data>
+  <data name="comboBox1.Items75" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="comboBox1.Items76" xml:space="preserve">
+    <value>594</value>
+  </data>
+  <data name="comboBox1.Items77" xml:space="preserve">
+    <value>689</value>
+  </data>
+  <data name="comboBox1.Items78" xml:space="preserve">
+    <value>262</value>
+  </data>
+  <data name="comboBox1.Items79" xml:space="preserve">
+    <value>241</value>
+  </data>
+  <data name="comboBox1.Items80" xml:space="preserve">
+    <value>220</value>
+  </data>
+  <data name="comboBox1.Items81" xml:space="preserve">
+    <value>995</value>
+  </data>
+  <data name="comboBox1.Items82" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="comboBox1.Items83" xml:space="preserve">
+    <value>233</value>
+  </data>
+  <data name="comboBox1.Items84" xml:space="preserve">
+    <value>350</value>
+  </data>
+  <data name="comboBox1.Items85" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="comboBox1.Items86" xml:space="preserve">
+    <value>299</value>
+  </data>
+  <data name="comboBox1.Items87" xml:space="preserve">
+    <value>1-473</value>
+  </data>
+  <data name="comboBox1.Items88" xml:space="preserve">
+    <value>590</value>
+  </data>
+  <data name="comboBox1.Items89" xml:space="preserve">
+    <value>1-671</value>
+  </data>
+  <data name="comboBox1.Items90" xml:space="preserve">
+    <value>502</value>
+  </data>
+  <data name="comboBox1.Items91" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="comboBox1.Items92" xml:space="preserve">
+    <value>224</value>
+  </data>
+  <data name="comboBox1.Items93" xml:space="preserve">
+    <value>245</value>
+  </data>
+  <data name="comboBox1.Items94" xml:space="preserve">
+    <value>592</value>
+  </data>
+  <data name="comboBox1.Items95" xml:space="preserve">
+    <value>509</value>
+  </data>
+  <data name="comboBox1.Items96" xml:space="preserve">
+    <value>672</value>
+  </data>
+  <data name="comboBox1.Items97" xml:space="preserve">
+    <value>379</value>
+  </data>
+  <data name="comboBox1.Items98" xml:space="preserve">
+    <value>504</value>
+  </data>
+  <data name="comboBox1.Items99" xml:space="preserve">
+    <value>852</value>
+  </data>
+  <data name="comboBox1.Items100" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="comboBox1.Items101" xml:space="preserve">
+    <value>354</value>
+  </data>
+  <data name="comboBox1.Items102" xml:space="preserve">
+    <value>91</value>
+  </data>
+  <data name="comboBox1.Items103" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="comboBox1.Items104" xml:space="preserve">
+    <value>98</value>
+  </data>
+  <data name="comboBox1.Items105" xml:space="preserve">
+    <value>964</value>
+  </data>
+  <data name="comboBox1.Items106" xml:space="preserve">
+    <value>353</value>
+  </data>
+  <data name="comboBox1.Items107" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="comboBox1.Items108" xml:space="preserve">
+    <value>972</value>
+  </data>
+  <data name="comboBox1.Items109" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="comboBox1.Items110" xml:space="preserve">
+    <value>1-876</value>
+  </data>
+  <data name="comboBox1.Items111" xml:space="preserve">
+    <value>81</value>
+  </data>
+  <data name="comboBox1.Items112" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="comboBox1.Items113" xml:space="preserve">
+    <value>962</value>
+  </data>
+  <data name="comboBox1.Items114" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="comboBox1.Items115" xml:space="preserve">
+    <value>254</value>
+  </data>
+  <data name="comboBox1.Items116" xml:space="preserve">
+    <value>686</value>
+  </data>
+  <data name="comboBox1.Items117" xml:space="preserve">
+    <value>850</value>
+  </data>
+  <data name="comboBox1.Items118" xml:space="preserve">
+    <value>82</value>
+  </data>
+  <data name="comboBox1.Items119" xml:space="preserve">
+    <value>965</value>
+  </data>
+  <data name="comboBox1.Items120" xml:space="preserve">
+    <value>996</value>
+  </data>
+  <data name="comboBox1.Items121" xml:space="preserve">
+    <value>856</value>
+  </data>
+  <data name="comboBox1.Items122" xml:space="preserve">
+    <value>371</value>
+  </data>
+  <data name="comboBox1.Items123" xml:space="preserve">
+    <value>961</value>
+  </data>
+  <data name="comboBox1.Items124" xml:space="preserve">
+    <value>266</value>
+  </data>
+  <data name="comboBox1.Items125" xml:space="preserve">
+    <value>231</value>
+  </data>
+  <data name="comboBox1.Items126" xml:space="preserve">
+    <value>218</value>
+  </data>
+  <data name="comboBox1.Items127" xml:space="preserve">
+    <value>423</value>
+  </data>
+  <data name="comboBox1.Items128" xml:space="preserve">
+    <value>370</value>
+  </data>
+  <data name="comboBox1.Items129" xml:space="preserve">
+    <value>352</value>
+  </data>
+  <data name="comboBox1.Items130" xml:space="preserve">
+    <value>853</value>
+  </data>
+  <data name="comboBox1.Items131" xml:space="preserve">
+    <value>389</value>
+  </data>
+  <data name="comboBox1.Items132" xml:space="preserve">
+    <value>261</value>
+  </data>
+  <data name="comboBox1.Items133" xml:space="preserve">
+    <value>265</value>
+  </data>
+  <data name="comboBox1.Items134" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="comboBox1.Items135" xml:space="preserve">
+    <value>960</value>
+  </data>
+  <data name="comboBox1.Items136" xml:space="preserve">
+    <value>223</value>
+  </data>
+  <data name="comboBox1.Items137" xml:space="preserve">
+    <value>356</value>
+  </data>
+  <data name="comboBox1.Items138" xml:space="preserve">
+    <value>692</value>
+  </data>
+  <data name="comboBox1.Items139" xml:space="preserve">
+    <value>596</value>
+  </data>
+  <data name="comboBox1.Items140" xml:space="preserve">
+    <value>222</value>
+  </data>
+  <data name="comboBox1.Items141" xml:space="preserve">
+    <value>230</value>
+  </data>
+  <data name="comboBox1.Items142" xml:space="preserve">
+    <value>262</value>
+  </data>
+  <data name="comboBox1.Items143" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="comboBox1.Items144" xml:space="preserve">
+    <value>691</value>
+  </data>
+  <data name="comboBox1.Items145" xml:space="preserve">
+    <value>373</value>
+  </data>
+  <data name="comboBox1.Items146" xml:space="preserve">
+    <value>377</value>
+  </data>
+  <data name="comboBox1.Items147" xml:space="preserve">
+    <value>976</value>
+  </data>
+  <data name="comboBox1.Items148" xml:space="preserve">
+    <value>382</value>
+  </data>
+  <data name="comboBox1.Items149" xml:space="preserve">
+    <value>1-664</value>
+  </data>
+  <data name="comboBox1.Items150" xml:space="preserve">
+    <value>212</value>
+  </data>
+  <data name="comboBox1.Items151" xml:space="preserve">
+    <value>258</value>
+  </data>
+  <data name="comboBox1.Items152" xml:space="preserve">
+    <value>95</value>
+  </data>
+  <data name="comboBox1.Items153" xml:space="preserve">
+    <value>264</value>
+  </data>
+  <data name="comboBox1.Items154" xml:space="preserve">
+    <value>674</value>
+  </data>
+  <data name="comboBox1.Items155" xml:space="preserve">
+    <value>977</value>
+  </data>
+  <data name="comboBox1.Items156" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="comboBox1.Items157" xml:space="preserve">
+    <value>687</value>
+  </data>
+  <data name="comboBox1.Items158" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="comboBox1.Items159" xml:space="preserve">
+    <value>505</value>
+  </data>
+  <data name="comboBox1.Items160" xml:space="preserve">
+    <value>227</value>
+  </data>
+  <data name="comboBox1.Items161" xml:space="preserve">
+    <value>234</value>
+  </data>
+  <data name="comboBox1.Items162" xml:space="preserve">
+    <value>683</value>
+  </data>
+  <data name="comboBox1.Items163" xml:space="preserve">
+    <value>672</value>
+  </data>
+  <data name="comboBox1.Items164" xml:space="preserve">
+    <value>1-670</value>
+  </data>
+  <data name="comboBox1.Items165" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="comboBox1.Items166" xml:space="preserve">
+    <value>968</value>
+  </data>
+  <data name="comboBox1.Items167" xml:space="preserve">
+    <value>92</value>
+  </data>
+  <data name="comboBox1.Items168" xml:space="preserve">
+    <value>680</value>
+  </data>
+  <data name="comboBox1.Items169" xml:space="preserve">
+    <value>970</value>
+  </data>
+  <data name="comboBox1.Items170" xml:space="preserve">
+    <value>507</value>
+  </data>
+  <data name="comboBox1.Items171" xml:space="preserve">
+    <value>675</value>
+  </data>
+  <data name="comboBox1.Items172" xml:space="preserve">
+    <value>595</value>
+  </data>
+  <data name="comboBox1.Items173" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="comboBox1.Items174" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="comboBox1.Items175" xml:space="preserve">
+    <value>870</value>
+  </data>
+  <data name="comboBox1.Items176" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="comboBox1.Items177" xml:space="preserve">
+    <value>351</value>
+  </data>
+  <data name="comboBox1.Items178" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBox1.Items179" xml:space="preserve">
+    <value>974</value>
+  </data>
+  <data name="comboBox1.Items180" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="comboBox1.Items181" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="comboBox1.Items182" xml:space="preserve">
+    <value>250</value>
+  </data>
+  <data name="comboBox1.Items183" xml:space="preserve">
+    <value>262</value>
+  </data>
+  <data name="comboBox1.Items184" xml:space="preserve">
+    <value>590</value>
+  </data>
+  <data name="comboBox1.Items185" xml:space="preserve">
+    <value>290</value>
+  </data>
+  <data name="comboBox1.Items186" xml:space="preserve">
+    <value>1-869</value>
+  </data>
+  <data name="comboBox1.Items187" xml:space="preserve">
+    <value>1-758</value>
+  </data>
+  <data name="comboBox1.Items188" xml:space="preserve">
+    <value>590</value>
+  </data>
+  <data name="comboBox1.Items189" xml:space="preserve">
+    <value>508</value>
+  </data>
+  <data name="comboBox1.Items190" xml:space="preserve">
+    <value>1-784</value>
+  </data>
+  <data name="comboBox1.Items191" xml:space="preserve">
+    <value>685</value>
+  </data>
+  <data name="comboBox1.Items192" xml:space="preserve">
+    <value>378</value>
+  </data>
+  <data name="comboBox1.Items193" xml:space="preserve">
+    <value>239</value>
+  </data>
+  <data name="comboBox1.Items194" xml:space="preserve">
+    <value>966</value>
+  </data>
+  <data name="comboBox1.Items195" xml:space="preserve">
+    <value>221</value>
+  </data>
+  <data name="comboBox1.Items196" xml:space="preserve">
+    <value>381</value>
+  </data>
+  <data name="comboBox1.Items197" xml:space="preserve">
+    <value>248</value>
+  </data>
+  <data name="comboBox1.Items198" xml:space="preserve">
+    <value>232</value>
+  </data>
+  <data name="comboBox1.Items199" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="comboBox1.Items200" xml:space="preserve">
+    <value>1-721</value>
+  </data>
+  <data name="comboBox1.Items201" xml:space="preserve">
+    <value>421</value>
+  </data>
+  <data name="comboBox1.Items202" xml:space="preserve">
+    <value>386</value>
+  </data>
+  <data name="comboBox1.Items203" xml:space="preserve">
+    <value>677</value>
+  </data>
+  <data name="comboBox1.Items204" xml:space="preserve">
+    <value>252</value>
+  </data>
+  <data name="comboBox1.Items205" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="comboBox1.Items206" xml:space="preserve">
+    <value>500</value>
+  </data>
+  <data name="comboBox1.Items207" xml:space="preserve">
+    <value>211</value>
+  </data>
+  <data name="comboBox1.Items208" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="comboBox1.Items209" xml:space="preserve">
+    <value>94</value>
+  </data>
+  <data name="comboBox1.Items210" xml:space="preserve">
+    <value>249</value>
+  </data>
+  <data name="comboBox1.Items211" xml:space="preserve">
+    <value>597</value>
+  </data>
+  <data name="comboBox1.Items212" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="comboBox1.Items213" xml:space="preserve">
+    <value>268</value>
+  </data>
+  <data name="comboBox1.Items214" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="comboBox1.Items215" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="comboBox1.Items216" xml:space="preserve">
+    <value>963</value>
+  </data>
+  <data name="comboBox1.Items217" xml:space="preserve">
+    <value>886</value>
+  </data>
+  <data name="comboBox1.Items218" xml:space="preserve">
+    <value>992</value>
+  </data>
+  <data name="comboBox1.Items219" xml:space="preserve">
+    <value>255</value>
+  </data>
+  <data name="comboBox1.Items220" xml:space="preserve">
+    <value>66</value>
+  </data>
+  <data name="comboBox1.Items221" xml:space="preserve">
+    <value>670</value>
+  </data>
+  <data name="comboBox1.Items222" xml:space="preserve">
+    <value>228</value>
+  </data>
+  <data name="comboBox1.Items223" xml:space="preserve">
+    <value>690</value>
+  </data>
+  <data name="comboBox1.Items224" xml:space="preserve">
+    <value>676</value>
+  </data>
+  <data name="comboBox1.Items225" xml:space="preserve">
+    <value>1-868</value>
+  </data>
+  <data name="comboBox1.Items226" xml:space="preserve">
+    <value>216</value>
+  </data>
+  <data name="comboBox1.Items227" xml:space="preserve">
+    <value>90</value>
+  </data>
+  <data name="comboBox1.Items228" xml:space="preserve">
+    <value>993</value>
+  </data>
+  <data name="comboBox1.Items229" xml:space="preserve">
+    <value>1-649</value>
+  </data>
+  <data name="comboBox1.Items230" xml:space="preserve">
+    <value>688</value>
+  </data>
+  <data name="comboBox1.Items231" xml:space="preserve">
+    <value>256</value>
+  </data>
+  <data name="comboBox1.Items232" xml:space="preserve">
+    <value>380</value>
+  </data>
+  <data name="comboBox1.Items233" xml:space="preserve">
+    <value>971</value>
+  </data>
+  <data name="comboBox1.Items234" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="comboBox1.Items235" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBox1.Items236" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBox1.Items237" xml:space="preserve">
+    <value>598</value>
+  </data>
+  <data name="comboBox1.Items238" xml:space="preserve">
+    <value>998</value>
+  </data>
+  <data name="comboBox1.Items239" xml:space="preserve">
+    <value>678</value>
+  </data>
+  <data name="comboBox1.Items240" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="comboBox1.Items241" xml:space="preserve">
+    <value>84</value>
+  </data>
+  <data name="comboBox1.Items242" xml:space="preserve">
+    <value>1-284</value>
+  </data>
+  <data name="comboBox1.Items243" xml:space="preserve">
+    <value>1-340</value>
+  </data>
+  <data name="comboBox1.Items244" xml:space="preserve">
+    <value>681</value>
+  </data>
+  <data name="comboBox1.Items245" xml:space="preserve">
+    <value>212</value>
+  </data>
+  <data name="comboBox1.Items246" xml:space="preserve">
+    <value>967</value>
+  </data>
+  <data name="comboBox1.Items247" xml:space="preserve">
+    <value>260</value>
+  </data>
+  <data name="comboBox1.Items248" xml:space="preserve">
+    <value>263</value>
+  </data>
+  <data name="comboBox1.Items249" xml:space="preserve">
+    <value>358</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>848, 527</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 24</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
+    <value>comboBox1</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="maskedTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>992, 527</value>
+  </data>
+  <data name="maskedTextBox1.Mask" xml:space="preserve">
+    <value>(999) 000-0000</value>
+  </data>
+  <data name="maskedTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="maskedTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;maskedTextBox1.Name" xml:space="preserve">
+    <value>maskedTextBox1</value>
+  </data>
+  <data name="&gt;&gt;maskedTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;maskedTextBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;maskedTextBox1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>848, 623</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 47</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>&lt;- Geri</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1008, 623</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 47</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Gönder -&gt;</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>848, 676</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 61</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>Cep Tel. Güncellemek İçin Tıklayınız</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>848, 573</value>
+  </data>
+  <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 22</value>
+  </data>
+  <data name="textBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Name" xml:space="preserve">
+    <value>textBox3</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1634, 784</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>SifremiUnuttum</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SifremiUnuttum</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
